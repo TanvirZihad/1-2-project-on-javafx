@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="390.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.javafxproject.managerlogin.logincontroller">
+    <children>
+        <ImageView fx:id="image" fitHeight="390.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="409.0" layoutY="79.0" mnemonicParsing="false" onAction="#signin" prefHeight="62.0" prefWidth="127.0" stylesheets="@button.css" text="Sign In" textFill="#5d12c7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="409.0" layoutY="174.0" mnemonicParsing="false" onAction="#signup" prefHeight="62.0" prefWidth="127.0" stylesheets="@button.css" text="Sign Up" textFill="#4208c9">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="313.0" layoutY="273.0" mnemonicParsing="false" onAction="#Back" prefHeight="62.0" prefWidth="127.0" stylesheets="@button.css" text="Back" textFill="#4208c9">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="170.0" layoutY="80.0" prefHeight="61.0" prefWidth="194.0" styleClass="boundary-label" stylesheets="@label.css" text="Already Have Account?" />
+      <Label layoutX="170.0" layoutY="175.0" prefHeight="61.0" prefWidth="194.0" styleClass="boundary-label" stylesheets="@label.css" text="Don't Have Account?" />
+    </children>
+</AnchorPane>

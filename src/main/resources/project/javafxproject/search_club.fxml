@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="390.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.javafxproject.clubSearchController">
+    <children>
+        <ImageView fx:id="image" fitHeight="390.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true" />
+        <Button layoutX="163.0" layoutY="117.0" mnemonicParsing="false" onAction="#maxsalary" prefHeight="54.0" prefWidth="155.0" stylesheets="@button.css" text="Max Salary" textFill="#3e0ddf">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Button>
+        <Button layoutX="163.0" layoutY="205.0" mnemonicParsing="false" onAction="#maxage" prefHeight="54.0" prefWidth="155.0" stylesheets="@button.css" text="Max Age" textFill="#3e0ddf">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Button>
+        <Button layoutX="278.0" layoutY="280.0" mnemonicParsing="false" onAction="#mainmenu" prefHeight="54.0" prefWidth="155.0" stylesheets="@button.css" text="Main Menu" textFill="#3e0ddf">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Button>
+        <Button layoutX="380.0" layoutY="205.0" mnemonicParsing="false" onAction="#totalsalary" prefHeight="54.0" prefWidth="155.0" stylesheets="@button.css" text="Total Salary" textFill="#3e0ddf">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Button>
+        <Button layoutX="380.0" layoutY="117.0" mnemonicParsing="false" onAction="#maxheight" prefHeight="54.0" prefWidth="155.0" stylesheets="@button.css" text="Max Height" textFill="#3e0ddf">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Button>
+        <Label layoutX="272.0" layoutY="32.0" prefHeight="54.0" prefWidth="155.0" styleClass="boundary-label" stylesheets="@label.css" text="Search By Club" textFill="#340de4">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

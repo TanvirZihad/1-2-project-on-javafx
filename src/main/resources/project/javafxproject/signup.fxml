@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="390.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.javafxproject.managerlogin.signupcontroller">
+    <children>
+        <ImageView fx:id="image" fitHeight="390.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="clubname" layoutX="323.0" layoutY="71.0" prefHeight="43.0" prefWidth="266.0" stylesheets="@textfield.css" />
+      <PasswordField fx:id="pass" layoutX="323.0" layoutY="132.0" prefHeight="43.0" prefWidth="266.0" stylesheets="@textfield.css" />
+      <PasswordField fx:id="repass" layoutX="323.0" layoutY="194.0" prefWidth="265.0" stylesheets="@textfield.css" />
+      <Label fx:id="misreenter" layoutX="203.0" layoutY="228.0" textFill="#e10a0a">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Label>
+      <Button layoutX="289.0" layoutY="292.0" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="102.0" stylesheets="@button.css" text="Back" textFill="#210dd7">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="98.0" layoutY="292.0" mnemonicParsing="false" onAction="#signup" prefHeight="50.0" prefWidth="102.0" stylesheets="@button.css" text="Sign Up" textFill="#210dd7">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="476.0" layoutY="292.0" mnemonicParsing="false" onAction="#reset" prefHeight="50.0" prefWidth="102.0" stylesheets="@button.css" text="Reset" textFill="#210dd7">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="sameclub" layoutX="54.0" layoutY="47.0" textFill="#e70633">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Label>
+      <Label layoutX="120.0" layoutY="71.0" prefHeight="43.0" prefWidth="159.0" styleClass="boundary-label" stylesheets="@label.css" text="Enter Club Name" />
+      <Label layoutX="120.0" layoutY="132.0" prefHeight="43.0" prefWidth="159.0" styleClass="boundary-label" stylesheets="@label.css" text="Enter Passwod" />
+      <Label layoutX="120.0" layoutY="194.0" prefHeight="43.0" prefWidth="159.0" styleClass="boundary-label" stylesheets="@label.css" text="Re-enter Password" />
+    </children>
+</AnchorPane>

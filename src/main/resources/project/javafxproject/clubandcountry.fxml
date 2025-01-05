@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="390.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.javafxproject.search_by_player.searchclubandcountrycontroller">
+    <children>
+        <TableView fx:id="tableView" layoutY="89.0" prefHeight="301.0" prefWidth="700.0" stylesheets="@table.css" />
+        <TextField fx:id="countrytosearch" layoutX="14.0" layoutY="21.0" prefHeight="43.0" prefWidth="186.0" promptText="Enter Country name" stylesheets="@textfield.css">
+         <font>
+            <Font size="10.0" />
+         </font></TextField>
+        <Button layoutX="442.0" layoutY="24.0" mnemonicParsing="false" onAction="#search" prefHeight="38.0" prefWidth="75.0" stylesheets="@button.css" text="Search">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+        <Button layoutX="528.0" layoutY="24.0" mnemonicParsing="false" onAction="#reset" prefHeight="38.0" prefWidth="75.0" stylesheets="@button.css" text="Reset">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <TextField fx:id="clubtosearch" layoutX="244.0" layoutY="21.0" prefHeight="43.0" prefWidth="175.0" promptText="Enter Club Name" stylesheets="@textfield.css" />
+      <Button layoutX="610.0" layoutY="24.0" mnemonicParsing="false" onAction="#quit" prefHeight="38.0" prefWidth="75.0" stylesheets="@button.css" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+    </children>
+</AnchorPane>
