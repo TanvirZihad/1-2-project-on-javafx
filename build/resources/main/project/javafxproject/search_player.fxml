@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="390.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.javafxproject.playerSearchController">
+    <children>
+        <ImageView fx:id="image" fitHeight="390.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true" />
+        <Button layoutX="150.0" layoutY="96.0" mnemonicParsing="false" onAction="#playername" prefHeight="50.0" prefWidth="143.0" stylesheets="@button.css" text="Player name" textFill="#3e0ddf">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="150.0" layoutY="181.0" mnemonicParsing="false" onAction="#position" prefHeight="50.0" prefWidth="143.0" stylesheets="@button.css" text="Position" textFill="#3e0ddf">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="143.0" layoutY="265.0" mnemonicParsing="false" onAction="#countrywisecount" prefHeight="50.0" prefWidth="150.0" stylesheets="@button.css" text="Countrywise count" textFill="#3e0ddf">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Button>
+        <Button layoutX="414.0" layoutY="181.0" mnemonicParsing="false" onAction="#salaryrange" prefHeight="50.0" prefWidth="143.0" stylesheets="@button.css" text="Salary Range" textFill="#3e0ddf">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <Button layoutX="414.0" layoutY="96.0" mnemonicParsing="false" onAction="#clubandcountry" prefHeight="50.0" prefWidth="143.0" stylesheets="@button.css" text="Club and Country" textFill="#3e0ddf">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+        </Button>
+        <Label layoutX="278.0" layoutY="26.0" prefHeight="58.0" prefWidth="143.0" styleClass="boundary-label" stylesheets="@label.css" text="Search By Player" textFill="#340de4">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Label>
+      <Button layoutX="414.0" layoutY="265.0" mnemonicParsing="false" onAction="#mainmenu" prefHeight="50.0" prefWidth="143.0" stylesheets="@button.css" text="Main menu" textFill="#3e0ddf">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

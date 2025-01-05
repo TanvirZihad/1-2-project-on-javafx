@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="390.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.javafxproject.search_by_player.countrywisecontroller">
+    <children>
+        <TableView fx:id="tableView" layoutY="56.0" prefHeight="336.0" prefWidth="700.0" />
+      <Button layoutX="603.0" layoutY="14.0" mnemonicParsing="false" onAction="#quit" prefHeight="30.0" prefWidth="82.0" stylesheets="@button.css" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+    </children>
+</AnchorPane>

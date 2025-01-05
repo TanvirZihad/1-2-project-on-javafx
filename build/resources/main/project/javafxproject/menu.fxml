@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="390.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.javafxproject.MenuController">
+   <children>
+      <ImageView fx:id="image" fitHeight="390.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="168.0" layoutY="149.0" mnemonicParsing="false" onAction="#playersearch" prefHeight="42.0" prefWidth="140.0" stylesheets="@button.css" text="Search By Player" textFill="#3e0ddf">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="168.0" layoutY="229.0" mnemonicParsing="false" onAction="#addplayer" prefHeight="42.0" prefWidth="140.0" stylesheets="@button.css" text="Add Player" textFill="#3e0ddf">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="280.0" layoutY="296.0" mnemonicParsing="false" onAction="#exit" prefHeight="42.0" prefWidth="140.0" stylesheets="@button.css" text="Exit" textFill="#3e0ddf">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="377.0" layoutY="229.0" mnemonicParsing="false" onAction="#managerlogin" prefHeight="42.0" prefWidth="140.0" stylesheets="@button.css" text="Manager Login" textFill="#3e0ddf">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="377.0" layoutY="149.0" mnemonicParsing="false" onAction="#clubsearch" prefHeight="42.0" prefWidth="140.0" stylesheets="@button.css" text="Search By Club" textFill="#3e0ddf">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="246.0" layoutY="65.0" prefHeight="56.0" prefWidth="173.0" styleClass="boundary-label" stylesheets="@label.css" text="MAIN MENU" textFill="#ebe8fa">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
